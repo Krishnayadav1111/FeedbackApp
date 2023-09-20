@@ -1,0 +1,51 @@
+/* Base styles for WelcomeScreen */
+.welcome-screen {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Styles for larger screens */
+  @media (min-width: 768px) {
+    .welcome-screen {
+      padding: 50px;
+    }
+  }
+  
+  /* Styles for even larger screens */
+  @media (min-width: 1200px) {
+    .welcome-screen {
+      padding: 100px;
+    }
+  }
+  
+  /* Styles for smaller screens */
+  @media (max-width: 480px) {
+    .welcome-screen {
+      padding: 10px;
+    }
+  }
+  
+  /* Styles for extra-small screens */
+  @media (max-width: 320px) {
+    .welcome-screen {
+      padding: 5px;
+    }
+  }
+  
+  /* Button styles */
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  /* Button hover styles */
+  button:hover {
+    background-color: #0056b3;
+  }
+  

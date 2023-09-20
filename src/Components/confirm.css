@@ -1,0 +1,80 @@
+/* Base styles for ConfirmationDialog */
+.confirmation-dialog {
+    text-align: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: none;
+  }
+  
+  .confirmation-dialog.open {
+    display: block;
+  }
+  
+  /* Styles for larger screens */
+  @media (min-width: 768px) {
+    .confirmation-dialog {
+      padding: 30px;
+    }
+  }
+  
+  /* Styles for even larger screens */
+  @media (min-width: 1200px) {
+    .confirmation-dialog {
+      padding: 50px;
+    }
+  }
+  
+  /* Styles for smaller screens */
+  @media (max-width: 480px) {
+    .confirmation-dialog {
+      padding: 10px;
+    }
+  }
+  
+  /* Styles for extra-small screens */
+  @media (max-width: 320px) {
+    .confirmation-dialog {
+      padding: 5px;
+    }
+  }
+  
+  /* Button styles */
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  /* Button hover styles */
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .confirmation-dialog.top-center {
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+    align-items: center;
+    background-color:white;
+  }
+
+  .button-no{
+    margin-right: 100px !important;
+  }

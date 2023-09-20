@@ -1,0 +1,90 @@
+/* Base styles for SurveyQuestion */
+.survey-question {
+    text-align: center;
+    padding: 20px;
+  }
+
+
+  .rating-ball {
+    /* Add styles for each small ball (rating option) */
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+    border-radius: 50%;
+    background-color: #000; /* You can change the background color as needed */
+    cursor: pointer;
+  }
+  
+  /* Styles for larger screens */
+  @media (min-width: 768px) {
+    .survey-question {
+      padding: 50px;
+    }
+  }
+  
+  /* Styles for even larger screens */
+  @media (min-width: 1200px) {
+    .survey-question {
+      padding: 100px;
+    }
+  }
+  
+  /* Styles for smaller screens */
+  @media (max-width: 480px) {
+    .survey-question {
+      padding: 10px;
+    }
+  }
+  
+  /* Styles for extra-small screens */
+  @media (max-width: 320px) {
+    .survey-question {
+      padding: 5px;
+    }
+  }
+  
+  /* Button styles */
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  /* Button hover styles */
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+
+
+  /* SurveyQuestion.css */
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-container button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button-container button:nth-child(1) {
+  background-color: #1a237e;
+}
+
+.button-container button:nth-child(2) {
+  background-color: #ff4081; 
+}

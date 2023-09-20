@@ -1,0 +1,38 @@
+/* Base styles for ThankYouScreen */
+.thank-you-screen {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Styles for larger screens */
+  @media (min-width: 768px) {
+    .thank-you-screen {
+      padding: 50px;
+      font-size: 20px;
+    }
+  }
+  
+  /* Styles for even larger screens */
+  @media (min-width: 1200px) {
+    .thank-you-screen {
+      padding: 100px;
+      font-size: 24px;
+    }
+  }
+  
+  /* Styles for smaller screens */
+  @media (max-width: 480px) {
+    .thank-you-screen {
+      padding: 10px;
+      font-size: 16px;
+    }
+  }
+  
+  /* Styles for extra-small screens */
+  @media (max-width: 320px) {
+    .thank-you-screen {
+      padding: 5px;
+      font-size: 14px;
+    }
+  }
+  
